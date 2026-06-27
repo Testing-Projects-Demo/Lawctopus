@@ -1,1 +1,1 @@
-# Lawctopus
+[# Lawctopus](https://lawctopuslawschool.netlify.app/)
