@@ -1,0 +1,114 @@
+/* ============================================================
+   RESPONSIVE OVERRIDES
+   ============================================================ */
+
+/* Tablet and smaller */
+@media (max-width: 1024px) {
+    .hero-inner {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+    .hero {
+        padding: 100px 0 60px;
+        min-height: auto;
+    }
+    .hero-right {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .hero-card {
+        flex: 1 1 200px;
+    }
+    .enroll-inner {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .timeline-item {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    .timeline-marker {
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .marker-line {
+        display: none;
+    }
+    .month-badge {
+        font-size: 0.7rem;
+    }
+    .assignments-grid {
+        grid-template-columns: 1fr;
+    }
+    .footer-inner {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .footer-links {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    .sticky-mobile-cta {
+        display: block;
+    }
+    body {
+        padding-bottom: 80px;
+    }
+    .back-to-top {
+        bottom: 140px;
+        right: 16px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+    .pricing-card {
+        padding: 2rem 1.5rem;
+    }
+    .pricing-features {
+        grid-template-columns: 1fr;
+    }
+    .pricing-badge {
+        right: 1rem;
+        font-size: 0.65rem;
+        padding: 0.1rem 1rem;
+    }
+    .enroll-form {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 80px 0 40px;
+    }
+    .hero-ctas {
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero-ctas .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    .hero-stats {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .stat-divider {
+        display: none;
+    }
+    .hero-card-small {
+        flex: 1 1 100%;
+    }
+    .countdown-item span:first-child {
+        font-size: 1.6rem;
+    }
+    .testimonial-card {
+        flex: 0 0 280px;
+        padding: 1.5rem;
+    }
+}
